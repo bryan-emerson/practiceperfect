@@ -16,7 +16,7 @@ let increment = ()=> {
   return (
     <div className='parent'>
       <h2>Ice Cream Scooper</h2>
-      <p>Num of Scoops: {count}</p>
+      <p>Numby of Scoops: {count}</p>
       <Child down={decrement} up={increment}/>
     </div>
   )
